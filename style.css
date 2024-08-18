@@ -1,0 +1,25 @@
+#grid-container {
+    border:2px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-self: center;
+    width:960px;
+    height:960px;
+}
+.grid-square{
+    background-color: pink;
+    border:1px solid black;
+   
+    box-sizing: border-box;
+
+}
+.hovered {
+    background-color: aqua;
+}
+#button{
+    margin-bottom: 20px;
+    background-color:palegreen ;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 10px;
+}
